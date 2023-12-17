@@ -1,0 +1,43 @@
+@use "./../../common/variables" as var;
+@use "./../../common/mixins" as mix;
+
+.page-type {
+  .contour img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    a {
+      color: black;
+
+      &:hover {
+        color: tomato;
+      }
+    }
+  }
+
+
+  .accordion-button:not(.collapsed) {
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+    color: #2268B4;
+    background-color: white;
+    box-shadow: none;
+    }
+
+  .dropdown{
+    padding: 24px;
+  }
+
+  .clean{
+    font-size: 12px;
+  }
+}

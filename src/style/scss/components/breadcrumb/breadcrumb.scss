@@ -1,0 +1,14 @@
+@use "./../../common/variables" as var;
+@use "./../../common/mixins" as mix;
+
+.breadcrumb{
+  a{
+    color: var.$main-link-color;
+    transition-duration: 0.8s;
+
+    &:hover{
+      color: var.$main-link-color-hover;
+      transition-duration: 0.8s;
+    }
+  }
+}

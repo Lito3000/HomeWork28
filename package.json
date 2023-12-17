@@ -1,0 +1,23 @@
+{
+  "name": "homework28",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-compile-all": "sass --watch ./src/style/scss/index.scss:./src/style/css/style.css",
+    "scss-compile-home": "sass --watch ./src/style/scss/home.scss:./src/style/css/home.css",
+    "scss-compile-policy": "sass --watch ./src/style/scss/policy.scss.scss:./src/style/css/policy.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^15.11.0",
+    "stylelint-config-clean-order": "^5.2.0",
+    "stylelint-config-standard-scss": "^11.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.2"
+  },
+  "description": ""
+}
