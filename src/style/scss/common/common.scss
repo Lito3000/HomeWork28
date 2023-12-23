@@ -1,3 +1,6 @@
+@use "./../common/variables" as var;
+@use "./../common/mixins" as mix;
+
 body {
   font-family: 'Public Sans', sans-serif;
   font-size: 16px;
@@ -7,3 +10,33 @@ body {
   border-radius: 20px;
 }
 
+:root,
+[data-bs-theme="light"] {
+  a {
+    --bs-link-color-rgb: 23, 24, 26;
+
+
+    transition-duration: 0.3s;
+
+    &:hover {
+      --bs-link-color-rgb: 114, 149, 44;
+
+      transition-duration: 0.3s;
+    }
+  }
+}
+
+//.color_link_a{
+//  a {
+//    --bs-link-color-rgb: 102, 255, 59;
+//
+//
+//    transition-duration: 0.3s;
+//
+//    &:hover {
+//      --bs-link-color-rgb: 160, 39, 238;
+//
+//      transition-duration: 0.3s;
+//    }
+//  }
+//}

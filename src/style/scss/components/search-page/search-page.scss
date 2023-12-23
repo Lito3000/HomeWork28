@@ -1,0 +1,52 @@
+@use "./../../common/variables" as var;
+@use "./../../common/mixins" as mix;
+
+
+.search-page{
+.dropdown{
+  width: 100%;
+  list-style: none;
+  background: white;
+  border-radius: 40px;
+
+  .dropdown-toggle{
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .dropdown-menu{
+    width: 100%;
+  }
+  }
+
+.dropdown-item{
+  text-align: right;
+}
+
+  .result{
+    width: 100%;
+    padding: 6px;
+    background: white;
+    border-radius: 40px;
+  }
+
+.left-button{
+  width: 100%;
+  border-radius: 40px;
+}
+
+  .right-button{
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .btn-outline-success{
+    --bs-btn-bg:#99C63C;
+    --bs-btn-hover-bg:#515151;
+    --bs-btn-border-color:#99C63C;
+    --bs-btn-hover-border-color:#515151;
+    --bs-btn-color: white;
+  }
+}
+
+

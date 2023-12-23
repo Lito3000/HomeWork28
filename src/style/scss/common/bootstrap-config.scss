@@ -1,17 +1,29 @@
-$breadcrumb-divider: "-";
+@use "./../common/variables" as var;
+@use "./../common/mixins" as mix;
+
 $link-decoration: none;
 $bootstrap-icons-font-dir: "./../../../node_modules/bootstrap-icons/font/fonts";
+$dropdown-border-color: black;
+$accordion-button-color: #2268B4;
+$accordion-button-active-color: #2268B4;
+$accordion-button-active-bg: none;
+//$green: #99C63C;
+$dropdown-min-width: 7em;
+$breadcrumb-divider: "-";
+$input-border-color: none;//бордер на search
+//$btn-focus-box-shadow: 0 0 0 0.25rem rgb(55, 255, 249);// Меняется цвет
+$btn-focus-box-shadow: none;// Меняется цвет
+//$btn-focus-box-shadow: #00bbff; // не меняется
+$input-focus-box-shadow: none;
+$input-focus-border-color: black;
 
-//:root,
-//[data-bs-theme="light"] {
-//  --bs-link-color-rgb: red;
-//}
+
+
+//$accordion-button-focus-box-shadow: 0 0 0 0.25rem rgb(252 69 143 / 95%);
+
 
 @import "./../../../../node_modules/bootstrap-icons/font/bootstrap-icons";
 @import "./../../../../node_modules/bootstrap/scss/bootstrap";
-
-
-
 
 
 
